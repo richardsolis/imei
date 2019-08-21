@@ -1,0 +1,104 @@
+.container-general {
+  width: 100%;
+  min-height: 100vh;
+  background: #02a1e4;
+  padding: 150px;
+  box-shadow: inset 0 0 75px rgba(0, 0, 0, 0.26);
+  .filter-search {
+    width: 240px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+
+  h1 {
+    color: white;
+    font-weight: 800;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    display: flex;
+  }
+  .table {
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.28) 0px 6px 7px;
+  }
+  .table td,
+  .table th {
+    border-top: none;
+    border-bottom: none;
+  }
+  .button-add {
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+    border: none;
+    background: #ea212e;
+    color: white;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.28) 0px 6px 7px;
+    outline: none;
+  }
+
+  .popUp {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.49);
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .title-button {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 30px;
+
+      button {
+        width: 50px !important;
+        height: 50px !important;
+        border-radius: 50% !important;
+      }
+    }
+    .data {
+      width: 60%;
+      background: white;
+      border-radius: 10px;
+      padding: 40px;
+      h2 {
+        font-weight: 800;
+        color: #ea212e;
+      }
+      input {
+        width: 100%;
+        margin-bottom: 30px;
+        padding: 20px;
+        border-radius: 15px;
+        border: 2px solid #00bcd4;
+        outline: none;
+      }
+
+      .is-invalid {
+        border: 3px solid #ea212e;
+      }
+
+      button {
+        padding: 10px 10px;
+        border-radius: 10px;
+        color: white;
+        background: #ea212e;
+        border: none;
+        width: 100%;
+        cursor: pointer;
+        outline: none;
+        box-shadow: rgba(0, 0, 0, 0.28) 0px 6px 7px;
+      }
+    }
+  }
+}
